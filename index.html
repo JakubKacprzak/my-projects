@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kalkulator</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="nav-element__time"></div>
+                <div class="nav-element__island"></div>
+                <div class="nav-element__parameters"></div>
+            </nav>
+            <section>
+                <div class="summary-box">
+                    <div class="result">0</div>
+                </div>
+                <div class="btns-box">
+                    <div class="light-grey" id="clear-all" value="AC">AC</div>
+                    <div class="light-grey" id="sign-reverse" value="+/-">&#177;</div>
+                    <div class="light-grey" id="percent" value="%">%</div>
+                    <div class="operation orange" value="/">&#xF7;</div>
+                    <div class="number" value="7">7</div>
+                    <div class="number" value="8">8</div>
+                    <div class="number" value="9">9</div>
+                    <div class="operation orange" value="*">&#215;</div>
+                    <div class="number" value="4">4</div>
+                    <div class="number" value="5">5</div>
+                    <div class="number" value="6">6</div>
+                    <div class="operation orange" value="-">&#8722;</div>
+                    <div class="number" value="1">1</div>
+                    <div class="number" value="2">2</div>
+                    <div class="number" value="3">3</div>
+                    <div class="operation orange" value="+">&#43;</div>
+                    <div class="zero number" value="0">0</div>
+                    <div id="coma" value=",">,</div>
+                    <div class="orange" id="equals" value="=">&#61;</div>
+                </div>
+            </section>
+            <div class="bottom-line"></div>
+        </div>
+        <script src="./app.js"></script>
+        <!-- <script src="./test.js"></script> -->
+        <script src="./clock.js"></script>
+    </body>
+</html>
